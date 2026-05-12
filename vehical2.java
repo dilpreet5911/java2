@@ -26,7 +26,7 @@ class scooty extends vehical {
     }
 }
 
-public class vehical {
+public class vehical2 {
     public static void main(String[] args) {
         car c = new car();
         c.start();
