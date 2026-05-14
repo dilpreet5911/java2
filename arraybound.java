@@ -3,7 +3,7 @@ public class arraybound {
         int[] arr = { 10, 20, 30 };
         try {
             System.out.println(arr[5]);
-        } catch (ArrayIndexOutofBoundsException e) {
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Error: Array index is out of bounds.");
         } finally {
             System.out.println("This block will always execute.");
