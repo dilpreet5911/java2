@@ -4,19 +4,19 @@ class bank {
     }
 }
 
-class sbi extends bank {
+class sbi extends bank2 {
     void intrest_rate() {
         System.out.println("sbi intrest rate is 7%");
     }
 }
 
-class hdfc extends bank {
+class hdfc extends bank2 {
     void intrest_rate() {
         System.out.println("hdfc  intrest rate is 10%");
     }
 }
 
-class icici extends bank {
+class icici extends bank2 {
     void intrest_rate() {
         System.out.println("icici intrest rate is 20%");
     }
@@ -24,7 +24,7 @@ class icici extends bank {
 
 public class override2 {
     public static void main(String[] args) {
-        bank b;
+        bank2 b;
         b = new sbi();
         b.intrest_rate();
         b = new hdfc();
