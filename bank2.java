@@ -17,7 +17,7 @@ class bankaccount {
     }
 }
 
-public class bank {
+public class bank2 {
     public static void main(String[] args) {
         bankaccount account = new bankaccount();
         System.out.println("balance after deposite:" + account.deposite(1000));
